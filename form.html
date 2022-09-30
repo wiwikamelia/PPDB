@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulir PPDB Online SMK NEGERI 2 KARANGANYAR</title>
+    <style>
+    h2 {
+    font-family: raleway;
+    color: #191970;  
+    }
+div.container {
+    width: device-width;
+}
+body {
+    background-image: url("tutwuri.jpg");
+    background-size: 492px;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+}
+div {
+    border-radius: 15px;
+    background-color: lightblue;
+    padding: 20px;
+    margin-left: 370px;
+    margin-right: 300px;
+    padding: 50px;
+}
+input[type=reset] {
+    background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 4px 10px;
+    padding: 5px;
+    width: 100px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    cursor: pointer;
+}
+
+input[type=submit]:active,
+input[type=reset]:active {
+    background: #ff0000;
+}
+
+input[type=submit] {
+    background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #0088CC;
+    color: #FFF;
+    margin: 4px 10px;
+    padding: 5px;
+    width:100px;
+}
+input[type=submit]:active {
+    background: #0044CC;
+}
+select:focus,
+input:focus {
+    border-color: rgb(82, 168, 236);
+    border-radius: 5px;
+    box-shadow: inset
+                0
+                1px 1px
+                rgb(0, 0, 0),
+                0 0 8px
+                rgb(82, 168, 236);
+    outline: 1;
+}
+#div2 {
+    float: right;
+}
+input[type=text] {
+    width: 80%;
+    padding: 8px 15px;
+    margin: 5px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select{
+     width: 50%;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+}
+select[type=radio] {
+}
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 8px 15px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+</style>
+</head>
+<body>
+<form method="POST" action="konfirmasi.html">
+<div class="container">
+<center>
+<table border="0">
+<h2><center> FORMULIR PENDAFTARAN </center></h2>
+    <tr>
+        <td>Angkatan </td><td><select name="angkatan" > <option>2018/2019</option> <option>2019/2020</option> <option>2020/2021</option></select></td>
+    </tr>
+    <tr>
+        <td>Tahun Masuk    </td>
+        <td><input type="text" name="tahunmasuk" /></td>
+    </tr>
+    <tr>
+        <td>NIS </td> <td><input type="text" name="nis"/></td>
+    </tr>
+    <tr>
+        <td>NISN </td> <td><input type="text" name="nisn"/></td>
+    </tr>
+    <tr>
+        <td>NIK </td> <td><input type="text" name="nik"/></td>
+    <tr>
+        <td>No. UN Sebelumnya </td> <td><input type="text" name="un"/></td>
+    <tr>
+        <td>Nama </td> <td><input type="Text" name="nama"/></td>
+    <tr>
+        <td>Nama Panggilan </td> <td><input type="text" name="panggilan"/></td>
+    <tr>
+        <td>Jenis Kelamin</td> <td><input type="radio" name="jeniskelamin" value="laki-laki" checked/> Laki - Laki <input type="radio" name="jeniskelamin" value="perempuan" /> Perempuan</td>
+    <tr>
+    <td>Tempat Lahir</td> <td><input type="text" name="tempatlahir"/></td>
+    </tr>
+        <td>Tanggal Lahir</td><td><select name="tanggal">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+      
+                        </select>
+                        <select name="bulan">
+                            <option>Januari</option>
+                            <option>Februari</option>
+                            <option>Maret</option>
+                            <option>April</option>
+                            <option>Mei</option>
+                            <option>Juni</option>
+                            <option>Juli</option>
+                            <option>Agustus</option>
+                            <option>September</option>
+                            <option>Oktober</option>
+                            <option>November</option>
+                            <option>Desember</option>
+                        </select>
+                        <select name="tahun">
+                            <option>1993</option>
+                            <option>1994</option>
+                            <option>1995</option>
+                            <option>1996</option>
+                            <option>1997</option>
+                            <option>1998</option>
+                            <option>1999</option>
+                            <option>2001</option>
+                            <option>2002</option>
+                            <option>2003</option>
+                            <option>2004</option>
+                            <option>2005</option>
+                            <option>2006</option>
+                            <option>2007</option>
+                            <option>2008</option>
+                            <option>2009</option>
+                            <option>2010</option>
+                            <option>2011</option>
+                            <option>2012</option>
+                            <option>2013</option>
+                            <option>2014</option>
+                            <option>2015</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                            <option>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+
+                        </select></td>
+    <tr>
+        <td>Agama</td><td><select name="agama">
+                    <option>Pilih Agama</option>
+                    <option>Islam</option>
+                    <option>Kristen</option>
+                    <option>Katolik</option>
+                    <option>Hindu</option>
+                    <option>Budha</option>
+                    <option>Konghucu</option>
+
+                </select></td>
+    </tr>
+    <tr>
+        <td>Kondisi</td><td><select name="kondisi">
+                    <option>Sehat</option>
+                    <option>Cacat</option>
+                    <option>Tunanetra</option>
+                    <option>Tunarungu</option>
+                    <option>Tunawicara</option>
+                </select></td>
+    <tr>
+        <td>Kewarganegaraan</td><td><input type="radio" name="warganegara" value="wni" checked=""> WNI
+    <input type="radio" name="warganegara" value="wna">
+    WNA</td>
+    </tr>
+    <tr>
+        <td>Anak ke</td><td><input type="text" name="anak" placeholder="0"> dari <input type="text" name="saudara" placeholder="0"></td>
+    </tr>
+    <tr>
+    <td>Status Anak</td><td><select name="status">
+                            <option>Anak Kandung</option>
+                            <option>Anak Tiri</option>
+                        </select></td>
+    </tr>
+    <tr>
+    <td>Jumlah Saudara Kandung</td><td><input type="text" name="jmlsdrka" placeholder="0"></td>
+    </tr>
+    <tr>
+        <td>Jumlah Saudara Tiri</td><td><input type="text" name="jmlsdrti" placeholder="0"></td>
+    </tr>
+    <tr>
+        <td>Bahasa</td><td><input type="text" name="bahasa"></td>
+    </tr>
+    <tr>
+        <td>Alamat</td><td><textarea name="alamat" rows="3" cols="25"></textarea></td>
+    </tr>
+    <tr>
+        <td>Kode Pos</td><td><input type="text" name="pos"></td>
+    </tr>
+    <tr>
+        <td>Jarak ke Sekolah</td><td><input type="text" name="jarak" placeholder="0"> km</td>
+    </tr>
+    <tr>
+        <td>Telepon</td><td><input type="text" name="telepon"></td>
+    </tr>
+    <tr>
+        <td>Handphone</td><td><input type="text" name="handphone"></td>
+    </tr>
+</table>
+<td><input type="submit" value="Kirim"></td><td><input type="reset" value="Reset">
+</center>
+</div>
+</form>
+</body>
+</html>
